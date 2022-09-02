@@ -1,4 +1,5 @@
 import logo from "../logo.svg";
+import CartWidget from "./CartWidget/CartWidget";
 const NavBar = () => {
   return (
     <div className="navbar-container">
@@ -15,6 +16,7 @@ const NavBar = () => {
           <a href="#">TELEFONO</a>
         </li>
       </ul>
+      <CartWidget />
     </div>
   );
 };

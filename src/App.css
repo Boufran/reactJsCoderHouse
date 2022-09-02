@@ -61,6 +61,10 @@
 
 .carrito {
   max-height: 50px;
-  display: flex;
-  justify-content: end;
+  display: inline-block;
+}
+
+.div-logo {
+  text-align: right;
+  margin: auto;
 }

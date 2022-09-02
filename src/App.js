@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <CartWidget />
+      {/* <CartWidget /> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <ClassComponent titulo="Prop de componente de clase" />
@@ -26,9 +26,9 @@ function App() {
           booleano={true}
         />
         <Boton funcion={handleClick} /> */}
-        <Contenedor />
+        {/* <Contenedor /> */}
 
-        {/* <ItemListContainer greeting="hola" /> */}
+        <ItemListContainer greeting="hola" />
       </header>
     </div>
   );
