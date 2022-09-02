@@ -58,3 +58,9 @@
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
+
+.carrito {
+  max-height: 50px;
+  display: flex;
+  justify-content: end;
+}
